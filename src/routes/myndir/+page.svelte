@@ -10,24 +10,14 @@
 
     <div class="grid">
       <div class="gallery-item">
-        <div class="placeholder-img">Regnbogi</div>
+        <img src="/images/gallery2.jpg" alt="Regnbogi við Flugstöð Leifs Eiríkssonar" class="gallery-img" />
         <h3>Regnbogi</h3>
         <p>Flugstöð Leifs Eiríkssonar</p>
       </div>
       <div class="gallery-item">
-        <div class="placeholder-img">Bio Process</div>
+        <img src="/images/gallery1.jpg" alt="Bygging Bio Process í Höfnum" class="gallery-img" />
         <h3>Bio Process</h3>
         <p>Bygging í Höfnum</p>
-      </div>
-      <div class="gallery-item">
-        <div class="placeholder-img">Innréttingar</div>
-        <h3>Innréttingar</h3>
-        <p>Sérsmíði fyrir fyrirtæki</p>
-      </div>
-      <div class="gallery-item">
-        <div class="placeholder-img">Bláa Lónið</div>
-        <h3>Bláa Lónið</h3>
-        <p>Nýbygging</p>
       </div>
     </div>
 
@@ -38,17 +28,13 @@
 </section>
 
 <style>
-  .placeholder-img {
-    background-color: var(--color-wood-light);
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    color: var(--color-wood-medium);
+  .gallery-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
-    border: 2px dashed var(--color-accent);
+    border: 1px solid var(--color-wood-light);
   }
 
   .gallery-item h3 {
