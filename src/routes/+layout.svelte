@@ -6,11 +6,8 @@
 <header>
   <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <a href="/" style="display: flex; align-items: center; gap: 15px;">
-        <img src="/images/logo.jpg" alt="TSA Logo" style="height: 60px; width: auto;" />
-        <span style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: bold; color: var(--color-wood-dark);">
-          TSA
-        </span>
+      <a href="/" style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: bold; color: var(--color-wood-dark);">
+        TSA
       </a>
       <nav>
         <ul>

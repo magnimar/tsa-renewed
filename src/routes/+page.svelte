@@ -4,7 +4,6 @@
 
 <section class="hero">
   <div class="container">
-    <img src="/images/logo.jpg" alt="TSA Logo" style="max-width: 300px; height: auto; margin-bottom: 2rem; border-radius: 4px;" />
     <h1>TSA</h1>
     <p style="font-size: 1.5rem; color: var(--color-wood-medium);">Trésmíðaverkstæði Stefáns & Ara</p>
     <h2 style="margin-top: 2rem;">Velkomin(n) á heimasíðu TSA</h2>
