@@ -11,7 +11,7 @@
       Við bjóðum upp á alhliða trésmíðaþjónustu, allt frá nýsmíði og innréttingum til sérhæfðra verkefna fyrir stærri fyrirtæki og einstaklinga.
     </p>
     <div style="margin-top: 3rem;">
-      <a href="/um-tsa" class="button" style="background-color: var(--color-wood-dark); color: white; padding: 12px 24px; border-radius: 4px; font-weight: bold;">Kynntu þér okkur</a>
+      <a href="/um-tsa" class="button" style="background-color: var(--color-wood-dark); color: white; padding: 12px 24px; border-radius: 4px; font-weight: bold;">Um okkur</a>
     </div>
   </div>
 </section>
