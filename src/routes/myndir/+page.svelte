@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Myndir - TSA - Trésmíðaverkstæði Stefáns & Ara</title>
 </svelte:head>
@@ -13,14 +17,18 @@
 		<div class="grid">
 			<div class="gallery-item">
 				<img
-					src="/images/gallery2.jpg"
+					src="{base}/images/gallery2.jpg"
 					alt="Regnbogi við Flugstöð Leifs Eiríkssonar"
 					class="gallery-img"
 				/>
 				<h3>Regnbogi við Flugstöð Leifs Eiríkssonar</h3>
 			</div>
 			<div class="gallery-item">
-				<img src="/images/gallery1.jpg" alt="Bygging Bio Process í Höfnum" class="gallery-img" />
+				<img
+					src="{base}/images/gallery1.jpg"
+					alt="Bygging Bio Process í Höfnum"
+					class="gallery-img"
+				/>
 				<h3>Bygging Bio Process í Höfnum</h3>
 			</div>
 		</div>

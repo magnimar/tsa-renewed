@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>TSA - Trésmíðaverkstæði Stefáns & Ara</title>
 </svelte:head>
@@ -15,7 +19,7 @@
 		</p>
 		<div style="margin-top: 3rem;">
 			<a
-				href="/um-tsa"
+				href="{base}/um-tsa"
 				class="button"
 				style="background-color: var(--color-wood-dark); color: white; padding: 12px 24px; border-radius: 4px; font-weight: bold;"
 				>Um okkur</a

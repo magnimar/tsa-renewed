@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import '../app.css';
 	let { children } = $props();
 </script>
@@ -7,17 +8,17 @@
 	<div class="container">
 		<div style="display: flex; justify-content: space-between; align-items: center;">
 			<a
-				href="/"
+				href="{base}/"
 				style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: bold; color: var(--color-wood-dark);"
 			>
 				TSA
 			</a>
 			<nav>
 				<ul>
-					<li><a href="/">Aðalsíða</a></li>
-					<li><a href="/um-tsa">Um okkur</a></li>
-					<li><a href="/myndir">Myndir</a></li>
-					<li><a href="/hafd-samband">Hafðu samband</a></li>
+					<li><a href="{base}/">Aðalsíða</a></li>
+					<li><a href="{base}/um-tsa">Um okkur</a></li>
+					<li><a href="{base}/myndir">Myndir</a></li>
+					<li><a href="{base}/hafd-samband">Hafðu samband</a></li>
 				</ul>
 			</nav>
 		</div>
