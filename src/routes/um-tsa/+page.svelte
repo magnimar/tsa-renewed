@@ -1,10 +1,10 @@
 <svelte:head>
-  <title>Um TSA - Trésmíðaverkstæði Stefáns & Ara</title>
+  <title>Um okkur - Trésmíðaverkstæði Stefáns & Ara</title>
 </svelte:head>
 
 <section class="section">
   <div class="container">
-    <h1 style="text-align: center; margin-bottom: 3rem;">Um TSA</h1>
+    <h1 style="text-align: center; margin-bottom: 3rem;">Um okkur</h1>
     
     <div style="margin-bottom: 4rem;">
       <h2 style="border-bottom: 2px solid var(--color-wood-light); padding-bottom: 10px;">Fyrirtækið</h2>

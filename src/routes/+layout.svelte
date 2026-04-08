@@ -12,7 +12,7 @@
       <nav>
         <ul>
           <li><a href="/">Aðalsíða</a></li>
-          <li><a href="/um-tsa">Um TSA</a></li>
+          <li><a href="/um-tsa">Um okkur</a></li>
           <li><a href="/myndir">Myndir</a></li>
           <li><a href="/hafd-samband">Hafðu samband</a></li>
         </ul>
